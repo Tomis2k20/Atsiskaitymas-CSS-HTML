@@ -171,6 +171,7 @@ button {
 
 /* End of card background pictures */
 
+/* ID's for bottom of cards */
 #orange {
   color: orange;
   padding-left: 20px;
@@ -224,6 +225,46 @@ button {
   padding-bottom: 30px;
 }
 
+/* End of ID's for bottom of cards */
+
 .fifthblockimg {
   padding-top: 190px;
+}
+
+footer img {
+  padding: 20px 0 0 30px;
+}
+
+footer p {
+  padding: 5px 0 0 30px;
+  color: rgb(75, 74, 74);
+}
+
+.link1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0;
+}
+
+.link1 a {
+  text-decoration: none;
+}
+
+#first {
+  padding: 50px 0px 20px 30px;
+  color: black;
+  font-weight: 500;
+}
+
+.other {
+  margin: 0;
+  padding: 10px 0 0 30px;
+  color: rgb(75, 74, 74);
+  font-size: 13px;
+}
+
+footer p {
+  padding-top: 30px;
+  color: rgb(75, 74, 74);
+  opacity: 0.5;
 }
