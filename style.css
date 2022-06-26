@@ -123,6 +123,10 @@ button {
   padding-top: 50px;
 }
 
+.additional {
+  display: none;
+}
+
 /* End of third section elements */
 
 /* Fourth section elements */
@@ -284,3 +288,107 @@ footer p {
 }
 
 /* End of footer elements */
+
+@media only screen and (min-width: 992px) {
+  body {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  nav {
+    display: inline-block;
+    float: right;
+    padding-top: 40px;
+    margin-right: 50px;
+  }
+
+  nav a {
+    text-decoration: none;
+    padding-right: 30px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  nav a:last-child {
+    color: #ff3998;
+  }
+
+  .firstblocktxt {
+    resize: none;
+    padding: 120px 0 0 30px;
+  }
+
+  .firstblocktxt h3 {
+    font-weight: 900;
+    font-size: 70px;
+  }
+
+  .uppertxt {
+    color: #ff3998;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  section img {
+    padding-top: 10px;
+    max-width: 240%;
+  }
+
+  .secondblock {
+    padding: 70px 0 20px 30px;
+    background: url(./background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+
+  .grid-container {
+    display: flex;
+    padding-top: 50px;
+  }
+
+  .additional {
+    display: flex;
+  }
+
+  .fifthblockimg img {
+    margin-right: 400px;
+    margin-left: 300px;
+  }
+
+  .fourthblock {
+    padding-bottom: 150px;
+  }
+
+  hr {
+    margin: 0;
+  }
+
+  .allicons {
+    float: left;
+  }
+  .link1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+    float: right;
+  }
+
+  .link2 {
+    float: left;
+  }
+
+  .link1 a {
+    text-decoration: none;
+  }
+
+  .thirdblock {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
