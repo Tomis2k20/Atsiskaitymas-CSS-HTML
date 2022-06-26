@@ -36,8 +36,8 @@ nav {
 /* First section elements */
 
 .firstblocktxt {
-  resize: none;
   padding: 45px 0 0 30px;
+  width: 80%;
 }
 
 .firstblocktxt h3 {
@@ -77,7 +77,7 @@ nav {
 
 section img {
   padding-top: 10px;
-  max-width: 170%;
+  max-width: 100%;
 }
 
 button {
@@ -306,6 +306,11 @@ footer p {
   /* End of body adjustments */
 
   /* Header responsivness */
+
+  header img {
+    padding: 20px 0 0 0;
+  }
+
   .burger {
     display: none;
   }
@@ -334,7 +339,7 @@ footer p {
 
   .firstblocktxt {
     resize: none;
-    padding: 120px 0 0 30px;
+    padding: 120px 0 0 0;
   }
 
   .firstblocktxt h3 {
@@ -352,6 +357,13 @@ footer p {
     padding-top: 10px;
     max-width: 240%;
   }
+  footer p {
+    padding: 5px 0 0 0;
+  }
+
+  footer img {
+    padding: 20px 0 0 0;
+  }
 
   .secondblock {
     padding: 70px 0 20px 30px;
@@ -367,21 +379,36 @@ footer p {
     padding-top: 50px;
   }
 
+  .grid-item {
+    padding-left: 0;
+  }
+
   .additional {
     display: flex;
   }
 
   .fifthblockimg img {
-    margin-right: 400px;
-    margin-left: 300px;
+    max-width: 100%;
   }
 
   .fourthblock {
     padding-bottom: 150px;
   }
-
+  .fourthblocktxt {
+    padding-left: 0%;
+  }
   hr {
     margin: 0;
+  }
+
+  .div1 {
+    display: inline-block;
+    padding: 0 48px 0 0;
+  }
+
+  .div1:last-child {
+    display: inline-block;
+    padding: 0 0 0 0;
   }
 
   .allicons {
@@ -395,8 +422,7 @@ footer p {
   }
 
   .link2 {
-    display: inline-block;
-    float: left;
+    display: flex;
   }
 
   .link3 {
@@ -417,5 +443,13 @@ footer p {
     padding-bottom: 60px;
   }
 
+  .designedby {
+    text-align: left;
+  }
+  .copyright {
+    position: absolute;
+    right: 0;
+    margin-right: 80px;
+  }
   /* End of adjustents to make page responsive for desktop */
 }
