@@ -50,6 +50,9 @@ section img {
   max-width: 170%;
 }
 
+button {
+  margin-bottom: 30px;
+}
 .mygtukas {
   border-radius: 100rem;
   padding: 1rem;
@@ -67,4 +70,24 @@ section img {
   background-origin: border-box;
   background-clip: content-box, border-box;
   box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.secondblock {
+  padding: 45px 0 20px 30px;
+  background: url(./background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.secondblock h2 {
+  font-size: 50px;
+}
+
+.secondblock h2 {
+  font-size: 50px;
+}
+
+.secondblock p {
+  font-size: 25px;
 }
