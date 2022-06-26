@@ -4,11 +4,19 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: rgb(252, 250, 250);
 }
-
+/* Wrappers */
 .flex-wrapper {
   display: flex;
 }
 
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0;
+}
+/* End of Wrappers*/
+
+/* Header elements */
 header img {
   padding: 20px 0 0 30px;
 }
@@ -22,6 +30,10 @@ header img {
 nav {
   display: none;
 }
+
+/* End of header elements */
+
+/* First section elements */
 
 .firstblocktxt {
   resize: none;
@@ -44,15 +56,6 @@ nav {
   line-height: 35px;
   font-size: 20px;
 }
-
-section img {
-  padding-top: 10px;
-  max-width: 170%;
-}
-
-button {
-  margin-bottom: 30px;
-}
 .mygtukas {
   border-radius: 100rem;
   padding: 1rem;
@@ -72,6 +75,18 @@ button {
   box-shadow: 2px 1000px 1px #fff inset;
 }
 
+section img {
+  padding-top: 10px;
+  max-width: 170%;
+}
+
+button {
+  margin-bottom: 30px;
+}
+
+/* End of first section elements */
+
+/* Second section elements */
 .secondblock {
   padding: 45px 0 20px 30px;
   background: url(./background.svg);
@@ -92,14 +107,123 @@ button {
   font-size: 25px;
 }
 
+/* End of second section elements */
+
+/* Third section elements */
+.grid-item {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  width: 50%;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding-top: 50px;
 }
 
-.grid-item {
-  padding-left: 30px;
-  padding-right: 30px;
-  width: 50%;
+/* End of third section elements */
+
+/* Fourth section elements */
+.fourthblocktxt {
+  padding: 45px 0 20px 30px;
+}
+
+.container {
+  overflow: auto;
+  white-space: nowrap;
+}
+.div1 {
+  display: inline-block;
+  padding: 0 0 0 30px;
+}
+.testdiv1 {
+  background-color: #eee;
+  border-radius: 5%;
+}
+/* End of fourth section elements */
+
+/* Card background pictures */
+.testdiv2 {
+  height: 270px;
+  width: 290px;
+  background-image: url(./ntfs/ntf-1.svg);
+}
+
+.testdiv4 {
+  height: 270px;
+  width: 290px;
+  background-image: url(./ntfs/nft-2.svg);
+}
+
+.testdiv5 {
+  height: 270px;
+  width: 290px;
+  background-image: url(./ntfs/ntf-3.svg);
+}
+
+.testdiv6 {
+  height: 270px;
+  width: 290px;
+  background-image: url(./ntfs/ntf-4.svg);
+}
+
+/* End of card background pictures */
+
+#orange {
+  color: orange;
+  padding-left: 20px;
+  padding-top: 25px;
+  margin: 0;
+  font-size: 13px;
+}
+
+#purpleman {
+  margin: 0;
+  padding-left: 20px;
+  padding-top: 7px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#codenr {
+  color: rgb(75, 74, 74);
+  margin: 0;
+  padding-left: 20px;
+  padding-top: 7px;
+  font-size: 17px;
+}
+#bid {
+  color: rgb(75, 74, 74);
+  margin: 0;
+  padding-top: 25px;
+  padding-right: 15px;
+  text-align: right;
+  font-size: 13px;
+}
+
+#price {
+  font-weight: 500;
+  padding-right: 15px;
+  font-size: 20px;
+  text-align: right;
+  margin: 0;
+}
+
+.ethimg {
+  width: 7%;
+}
+#daysleft {
+  font-size: 17px;
+  color: rgb(75, 74, 74);
+  margin: 0;
+  text-align: right;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 30px;
+}
+
+.fifthblockimg {
+  padding-top: 190px;
 }
