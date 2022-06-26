@@ -290,11 +290,14 @@ footer p {
 /* End of footer elements */
 
 @media only screen and (min-width: 992px) {
+  /* Body adjustments */
   body {
     width: 90%;
     margin: 0 auto;
   }
+  /* End of body adjustments */
 
+  /* Header responsivness */
   .burger {
     display: none;
   }
@@ -316,6 +319,10 @@ footer p {
   nav a:last-child {
     color: #ff3998;
   }
+
+  /* End of header responsivness */
+
+  /* Adjustents to make page responsive for desktop */
 
   .firstblocktxt {
     resize: none;
@@ -391,4 +398,6 @@ footer p {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+
+  /* End of adjustents to make page responsive for desktop */
 }
