@@ -127,7 +127,19 @@ button {
 
 /* Fourth section elements */
 .fourthblocktxt {
-  padding: 45px 0 20px 30px;
+  padding: 10px 0 20px 30px;
+}
+.fourthblocktxt h3 {
+  font-size: 50px;
+  font-weight: 500;
+}
+.fourthblocktxt p {
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.fourthblocktxt p a {
+  color: black;
 }
 
 .container {
@@ -227,6 +239,8 @@ button {
 
 /* End of ID's for bottom of cards */
 
+/* Footer elements */
+
 .fifthblockimg {
   padding-top: 190px;
 }
@@ -268,3 +282,5 @@ footer p {
   color: rgb(75, 74, 74);
   opacity: 0.5;
 }
+
+/* End of footer elements */
